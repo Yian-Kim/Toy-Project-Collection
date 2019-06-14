@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <TextView        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="First Name"        android:id="@+id/tv1"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="30dp" />
+
+    <TextView        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="Last Name"        android:id="@+id/textView"
+
+        android:layout_below="@+id/tv1"
+
+        android:layout_alignRight="@+id/tv1"
+
+        android:layout_alignEnd="@+id/tv1"
+
+        android:layout_marginTop="74dp" />
+
+    <EditText        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"        android:ems="10"
+
+        android:id="@+id/et1"        android:layout_alignTop="@+id/tv1"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentEnd="true" />
+
+    <EditText        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"        android:ems="10"
+
+        android:id="@+id/et2"
+
+        android:layout_alignBottom="@+id/textView"
+
+        android:layout_alignRight="@+id/et1"
+
+        android:layout_alignEnd="@+id/et1" />
+
+    <Button        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"        android:text="SAVE"
+
+        android:onClick="save"        android:id="@+id/bt3"
+
+        android:layout_marginTop="54dp"        android:layout_below="@+id/iv1"
+
+        android:layout_centerHorizontal="true" />
+
+    <Button        android:layout_width="100dp"
+
+        android:layout_height="100dp"        android:text="Select Image"
+
+        android:onClick="selectimg"        android:id="@+id/bt4"
+
+        android:layout_centerVertical="true"
+
+        android:layout_alignRight="@+id/textView"
+
+        android:layout_alignEnd="@+id/textView" />
+
+    <ImageView        android:layout_width="100dp"
+
+        android:layout_height="100dp"        android:id="@+id/iv1"
+
+        android:background="#dcf7f6"        android:layout_alignTop="@+id/bt4"
+
+        android:layout_alignLeft="@+id/et2"
+
+        android:layout_alignStart="@+id/et2" />
+
+</RelativeLayout>

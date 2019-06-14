@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+        tools:context="com.exam.ravi.regform.RegAct">
+
+    <EditText        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/et_fname"        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="58dp"        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true" />
+
+    <EditText        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"        android:id="@+id/et_lname"
+
+        android:layout_below="@+id/et_fname"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="62dp"
+
+        android:layout_alignEnd="@+id/et_fname" />
+
+    <Button        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="OK"        android:id="@+id/btOk"
+
+        android:onClick="submit"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="48dp" />
+
+    <Button        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="SelectImage"        android:onClick="selectImage"
+
+        android:id="@+id/btnImg"        android:layout_marginTop="56dp"
+
+        android:layout_below="@+id/et_lname"
+
+        android:layout_alignParentStart="true" />
+
+    <ImageView        android:layout_width="150dp"
+
+        android:layout_height="120dp"
+
+        android:id="@+id/imageView"
+
+
+        android:layout_alignTop="@+id/btnImg"
+
+        android:layout_alignEnd="@+id/et_lname"
+
+        android:layout_alignStart="@+id/btOk" />
+</RelativeLayout>

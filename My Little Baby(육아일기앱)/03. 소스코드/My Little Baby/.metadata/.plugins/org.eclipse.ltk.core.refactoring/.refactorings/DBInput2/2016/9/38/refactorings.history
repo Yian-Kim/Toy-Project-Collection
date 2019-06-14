@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DBInput2/res/layout/main.xml&apos; to &apos;delete.xml&apos;" description="Rename resource &apos;main.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/main.xml" name="delete.xml" stamp="1473936796535" updateReferences="true"/>
+</session>
